@@ -1,0 +1,18 @@
+{
+    "gitbook": ">=3.2.0",
+    "title": "Loader Form-Builder tutorial",
+    "description": "Documentation for Loader for Form-Builder",
+    "links": {
+        "sidebar": {
+        }
+    },
+    "plugins": [
+        "language-picker",
+        "include-html"
+    ],
+    "pluginsConfig": {
+        "language-picker": {
+            "grid-columns": 3
+        }
+    }
+}
