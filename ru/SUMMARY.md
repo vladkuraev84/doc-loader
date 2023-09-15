@@ -5,4 +5,5 @@
 
 ### Структура
 
+* [vite.config.ts](VITECONFIG.md)
 * [Загрузчик Виджет-формы(src/index.ts)](RUNFORM.md)
