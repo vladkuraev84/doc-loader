@@ -21,3 +21,12 @@
 .book-summary .summary li:last-child, .book-header h1 {
   display: none !important;
 }
+
+.markdown-section pre {
+  border-radius: 10px;
+  background: #343434;
+}
+
+.markdown-section pre>code {
+  color: #fffff5;
+}
