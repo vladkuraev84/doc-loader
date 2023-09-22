@@ -16,7 +16,7 @@
 - **DomLoader**: Класс, загружающий файлы DOM(`js и style` в `div id='my-id'`).
 - **SchemesController**: Класс, управляющий схемой.
 
-Также импортируются различные типы данных из файлов **./types/common.types**, **./classes/informator/types**, и **./types/scheme.types**. Эти типы данных используются для аннотации переменных и параметров функций.
+Также импортируются различные типы данных из файлов **./types/common.types**, **./classes/informator/types**, **./classes/form-worker**, и **./classes/scheme.types**. Эти типы данных используются для аннотации переменных и параметров функций.
 
 ### Класс Загрузчика Виджет-Формы (WDFL)
 
