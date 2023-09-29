@@ -63,3 +63,5 @@ export default defineConfig({
 	},
 });
 ```
+
+Болле подробную документацию можно найти на официальном сайте [Vite](https://vitejs.dev/config/)
