@@ -14,6 +14,7 @@
   "devDependencies": {
     "gitbook-plugin-include-html": "*",
     "gitbook-plugin-language-picker": "*",
+    "gitbook-plugin-chapter-fold": "^0.0.4",
     "honkit": "^5.0.0"
   },
   "dependencies": {
