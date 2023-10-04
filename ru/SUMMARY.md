@@ -14,7 +14,11 @@
 
 * [Bundler](BUNDLER.md)
 
-* [Injectors](injectors/README.md)
+* [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)
   * [BundleInjectorDom](injectors/BUNDLEINJECTORDOM.md)
   * [StyleInjector](injectors/STYLEJECTORDOM.md)
+* [Informator classes](informator/README.md)
+  * [Informator](informator/INFORMATOR.md)
+  * [UrlService](informator/URLSERVICE.md)
+  * [DownloaderService](informator/DOWNLOADERSERVICE.md)

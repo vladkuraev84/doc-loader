@@ -1,12 +1,12 @@
 ## BundleInjectorDom
 
-_src/classes/injectors/bundle-injector-dom.t_
+_src/classes/injectors/bundle-injector-dom.ts_
 
 > Класс **BundleInjectorDom** предназначен для добавления **script** в DOM.
 
 ### Поля класса
 
-| Название      | Префикс | Описание метода                                                    |
+| Название      | Префикс | Описание                                                           |
 |---------------|---------|--------------------------------------------------------------------|
 | **key**       | static  | `'main-bundle'` - название ID `<script id='main-bundle'></script>` |
 
