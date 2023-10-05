@@ -4,6 +4,7 @@
 * [Корень проекта](ROOTPROJECT.md)
 * [Атрибуты виджета](ATTRIBUTES.md)
 * [vite.config.ts](VITECONFIG.md)
+* [FormParams](FORMPARAMS.md)
 
 # Основной класс. Конфиг
 
