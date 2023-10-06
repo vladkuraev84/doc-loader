@@ -17,6 +17,7 @@
 * [Bridge](BRIDGE.md)
 * [FormWorker](FORMWORKER.md)
 * [ParamsWorker](PARAMSWORKER.md)
+* [SchemesController](SCHEMESCONTROLLER.md)
 
 * [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)
