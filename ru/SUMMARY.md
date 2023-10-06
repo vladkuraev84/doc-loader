@@ -16,6 +16,7 @@
 * [Bundler](BUNDLER.md)
 * [Bridge](BRIDGE.md)
 * [FormWorker](FORMWORKER.md)
+* [ParamsWorker](PARAMSWORKER.md)
 
 * [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)
