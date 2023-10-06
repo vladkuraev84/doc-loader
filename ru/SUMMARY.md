@@ -14,6 +14,7 @@
 # Вспомогательные классы
 
 * [Bundler](BUNDLER.md)
+* [Bridge](BRIDGE.md)
 
 * [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)
