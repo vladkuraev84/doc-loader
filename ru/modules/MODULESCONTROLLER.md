@@ -4,7 +4,6 @@ _src/classes/modules/index.ts_
 
 > Класс **ModulesController** ответственный за управление и загрузку модулей на основе переданных схем.
 
-
 ### Поля класса
 
 | Название        | Префикс  | Описание                                                                                                                             |
@@ -14,7 +13,6 @@ _src/classes/modules/index.ts_
 ### Конструктор класса
 
 Конструктор класса **ModulesController** выполняется при создании экземпляра класса. Он принимает массив **schemes** для дальнейшей обработки в приватных методах этого класса.
-
 
 ### Методы класса
 
@@ -31,4 +29,3 @@ _src/classes/modules/index.ts_
 import {ModuleLoader} from './loader/module-loader';
 import type {Module, Scheme} from '@/types/scheme.types';
 ```
-
