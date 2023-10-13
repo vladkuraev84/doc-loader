@@ -30,3 +30,13 @@
 .markdown-section pre>code {
   color: #fffff5;
 }
+
+.markdown-section table {
+  width: calc(100% - 2px);
+  border-radius: 10px;
+  border-style: hidden;
+  box-shadow: 0 0 0 1px #ddd;
+  overflow: hidden;
+  margin-left: 1px;
+  margin-right: 1px;
+}

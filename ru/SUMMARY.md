@@ -1,6 +1,9 @@
 # Содержание
 
 * [Введение](README.md)
+
+# Корень проекта и основные параметры
+
 * [Корень проекта](ROOTPROJECT.md)
 * [Атрибуты виджета](ATTRIBUTES.md)
 * [vite.config.ts](VITECONFIG.md)
