@@ -12,6 +12,7 @@
 .book .book-body .page-wrapper .page-inner {
   margin-bottom: 3em;
   max-width: 1400px;
+  padding: 20px 25px 40px 25px;
 }
 
 .book-langs-index .inner {
@@ -39,4 +40,11 @@
   overflow: hidden;
   margin-left: 1px;
   margin-right: 1px;
+}
+
+@media (max-width:990px) {
+  .book .book-body .page-wrapper .page-inner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
