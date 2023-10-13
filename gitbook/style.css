@@ -12,7 +12,7 @@
 .book .book-body .page-wrapper .page-inner {
   margin-bottom: 3em;
   max-width: 1400px;
-  padding: 20px 25px 40px 25px;
+  padding: 20px 90px 40px 90px;
 }
 
 .book-langs-index .inner {
@@ -46,7 +46,7 @@
   border-radius: 6px;
 }
 
-@media (max-width:990px) {
+@media (max-width:1240px) {
   .book .book-body .page-wrapper .page-inner {
     padding-left: 15px;
     padding-right: 15px;
