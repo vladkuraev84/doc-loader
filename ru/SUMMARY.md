@@ -5,12 +5,12 @@
 # Корень проекта и основные параметры
 
 * [Корень проекта](ROOTPROJECT.md)
-* [Атрибуты виджета](ATTRIBUTES.md)
 * [vite.config.ts](VITECONFIG.md)
-* [FormParams](FORMPARAMS.md)
 
 # Основной класс. Конфиг
 
+* [Атрибуты виджета](ATTRIBUTES.md)
+* [FormParams](FORMPARAMS.md)
 * [Загрузчик Виджет-формы](RUNFORM.md)
 * [Config](CONFIG.md)
 
