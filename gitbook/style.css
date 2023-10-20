@@ -83,3 +83,12 @@
   -webkit-box-shadow: inset 1px 0 0 #cecece;
   background: #cecece;
 }
+
+.book-summary ul.summary li a:hover {
+  color: #008cff;
+}
+
+.book-summary ul.summary li.active>a {
+  border-left: 4px solid #008cff;
+  font-weight: 900;
+}
