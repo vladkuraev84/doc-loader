@@ -1,11 +1,11 @@
 
 <style>
-    div.copy-git {
+    div.copy-git-wr {
         display: flex;
         align-items: center;
         margin-bottom: .85em;
     }
-    div.copy-git span {
+    div.copy-git-wr span {
         display: inline-block;
         margin-right: 6px;
     }
@@ -34,9 +34,13 @@
 </style>
 <body>
 
-<div class="copy-git">
-    <span>https: </span><code> git@github.com:code-hs/forms-loader-v.git </code>
+<div class="copy-git-wr">
+    <span>https: </span>
+    <div class="copy-git">
+        <code> git@github.com:code-hs/forms-loader-v.git </code>
+    </div>
 </div>
+
 <script>
   // get the list of all highlight code blocks
   const highlights = document.querySelectorAll("div.copy-git")
