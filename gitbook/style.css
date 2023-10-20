@@ -56,3 +56,30 @@
     overflow-x: auto;
   }
 }
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+  width: 8px;
+  /* ширина для вертикального скролла */
+  height: 4px;
+  /* высота для горизонтального скролла */
+  background-color: #bbb5d4;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+  background-color: #b3aec6;
+  border-radius: 4px;
+  box-shadow: none;
+  border: 2.5px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #5c5673;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 1px 0 0 #cecece;
+  background: #cecece;
+}
