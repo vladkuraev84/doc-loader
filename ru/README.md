@@ -19,9 +19,9 @@
 
 2) NextFormJs/loader - текущая документация.
 
-3) NextFormJs/player - сборщик, принимает [Scheme](https://docs-nextformio-scheme.netlify.app/) и **Loader** (текущая документация), обрабатывает данные и формирует уже готовую **html form**.
+3) NextFormJs/player - сборщик, принимает [NextFormJs/jsons](https://docs-nextformio-scheme.netlify.app/) и **Loader** (текущая документация), обрабатывает данные и формирует уже готовую **html form**.
 
-**Loader** нужен для загрузки данных из [Scheme](https://docks-scheme-demo.netlify.app/), настройки модулей в том числе и модуля для выбора даты (datepicker) на веб-странице.
+**Loader** нужен для загрузки данных из [NextFormJs/jsons](https://docks-scheme-demo.netlify.app/), настройки модулей в том числе и модуля для выбора даты (datepicker) на веб-странице.
 
 ### Что делает 
 
@@ -39,7 +39,7 @@
 - Получение формы виджета и извлечение [параметров](FORMPARAMS.md) из [атрибутов](ATTRIBUTES.md) формы.
 - Установка параметров на [валидность](PARAMSWORKER.md).
 - Получение информации о [схеме и локалях](https://docks-scheme-demo.netlify.app/) для внедрения модулей.
-- Отправка данных о схеме и локалях в приложение виджета (Player).
+- Отправка данных о схеме и локалях в приложение виджета (NextFormJs/player).
 - Сохранение схемы в [storage](BRIDGE.md) для использования при инициализации модулей.
 - Инициализация контейнера для файлов DOM.
 - [Загрузка модулей](modules/loader/MODULELOADER.md).
