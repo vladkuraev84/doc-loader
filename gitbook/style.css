@@ -126,3 +126,11 @@
   border-color: #faebcc;
   color: #8a6d3b*/
 }
+
+.alert .hints-container p {
+  margin-bottom: 0;
+}
+
+.alert .hints-container p + p {
+  margin-top: .85em;
+}
