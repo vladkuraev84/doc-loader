@@ -7,6 +7,7 @@
         }
     },
     "plugins": [
+        "hints",
         "language-picker",
         "include-html",
         "chapter-fold"
