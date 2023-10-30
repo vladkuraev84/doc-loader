@@ -2,6 +2,15 @@
 
 > Добро пожаловать в документацию проекта "Loader for NextFormJs"(в дальнейшем сокращенно: **Loader**) ! 
 
+
+{% hint style="working" %}
+Данный проект является неотъемлимой частью приложения **"NextFormJs"** и разработан на взаимодействие с другими двумя проектами:
+
+1) [NextFormJs/jsons](https://docs-nextformio-scheme.netlify.app/)
+
+2) NextFormJs/player
+{% endhint %}
+
 ### Тербования проекта
 
 Для запуска данного кода проекта локально необходима [Node.js](https://nodejs.org/en/download) (версии 18* и выше) с менеджером пакетов NPM, TypeScript.
@@ -46,11 +55,3 @@
 - Внедрение [бандлов](injectors/BUNDLEINJECTOR.md) (пакетов) и [стилей](injectors/STYLEJECTORDOM.md).
 - Обработку данных для работы с несколькими формами в пределах одной HTML-страницы. 
 - Этот код представляет собой точку входа для загрузки и инициализации виджета-формы.
-
-{% hint style="working" %}
-Данный проект является неотъемлимой частью приложения **"NextFormJs"** и разработан на взаимодействие с другими двумя проектами:
-
-1) [NextFormJs/jsons](https://docs-nextformio-scheme.netlify.app/)
-
-2) NextFormJs/player
-{% endhint %}
