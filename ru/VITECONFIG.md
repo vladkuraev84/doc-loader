@@ -56,7 +56,7 @@ export default defineConfig({
 			input: 'src/index.ts',
 			output: {
 				format: 'iife',
-				entryFileNames: `widget-form-loader.min.js`,
+				entryFileNames: `next-form-loader.min.js`,
 			},
 		},
 		...minifyOptions,
