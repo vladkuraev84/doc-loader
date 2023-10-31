@@ -11,8 +11,8 @@
 
 * [Атрибуты виджета](ATTRIBUTES.md)
 * [FormParams](FORMPARAMS.md)
-* [Загрузчик Виджет-формы](RUNFORM.md)
 * [Config](CONFIG.md)
+* [Загрузчик Виджет-формы](RUNFORM.md)
 
 # Вспомогательные классы
 
