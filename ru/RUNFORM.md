@@ -19,6 +19,7 @@ _src/index.ts_
 | **[ModuleLoader](modules/loader/MODULELOADER.md)** | Класс, загружающий модули согласно схемы(`scheme`).                                                                            |
 | **[DomLoader](modules/loader/DOMLOADER.md)**       | Класс, загружающий файлы DOM(`js и style` в `div id='`[filesContainerId](CONFIG.md)`'`).                                       |
 | **[SchemesController](SCHEMESCONTROLLER.md)**      | Класс, управляющий схемой.                                                                                                     |
+| **[ContentLoader](loaders/README.md)**             | Класс, предназначенный для загрузки html-контента, файла.                                                                      |
 
 Также импортируются различные типы данных из файлов **./types/common.types**, **./classes/informator/types**, **./classes/form-worker**, и **./classes/scheme.types**. Эти типы данных используются для аннотации переменных и параметров функций.
 
@@ -42,3 +43,13 @@ _src/index.ts_
 
 Этот файл представляет собой центральную часть приложения для загрузки виджета-формы и включает в себя обработку форм, загрузку данных и модулей, а также подключение стилей и бандлов.
 
+### Импорт типов
+
+В начале кода есть импорты типов.
+
+```ts
+import type {FormParams} from '@/types/common.types';
+import type {FormInformations, Group} from '@/classes/informator/types';
+import type {HTMLForms} from '@/classes/form-worker';
+import type {Scheme} from '@/types/scheme.types';
+```

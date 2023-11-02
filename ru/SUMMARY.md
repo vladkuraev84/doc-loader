@@ -36,3 +36,6 @@
   * [DomLoader](modules/loader/DOMLOADER.md)
   * [DatepickerLoader](modules/list/datepicker/DATEPICKERLOADER.md)
   * [DatepickerLocalization](modules/list/datepicker/DATEPICKERLOCALIZATION.md)
+* [Loaders classes](loaders/README.md)
+  * [ContentLoader](loaders/CONTENTLOADER.md)
+  * [HtmlLoader](loaders/HTMLLOADER.md)

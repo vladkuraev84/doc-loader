@@ -15,5 +15,5 @@ _src/classes/bridge.ts_
 В начале кода есть импорт типов.
 
 ```ts
-import type {Group} from '@/classes/informator/types';
+import type {FormInformations} from '@/classes/informator/types';
 ```
