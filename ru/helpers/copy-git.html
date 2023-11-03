@@ -1,4 +1,5 @@
 
+<body>
 <div class="copy-block-wr">
     <span>https: </span>
     <div class="copy-block">
@@ -9,9 +10,9 @@
 
 <script>
   // get the list of all highlight code blocks
-  const highlights = document.querySelectorAll("div.copy-block")
+  var copyBlocks = document.querySelectorAll("div.copy-block")
 
-  highlights.forEach(div => {
+  copyBlocks.forEach(div => {
     const btn = div.querySelector("button");
     btn.addEventListener("click", copyToClipboard)
   })
@@ -48,3 +49,4 @@
     copyToClipboard(evt);
   };*/
 </script>
+</body>
