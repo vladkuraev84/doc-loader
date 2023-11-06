@@ -47,7 +47,7 @@
 - Установка параметров на [валидность](PARAMSWORKER.md).
 - Получение информации о [схеме и локалях](https://docks-scheme-demo.netlify.app/) для внедрения модулей.
 - Отправка данных о схеме и локалях в приложение виджета ({% include "helpers/playerLink.md" %}).
-- Сохранение схемы в [storage](BRIDGE.md) для использования при инициализации модулей.
+- Сохранение схемы в [storage](bridge/BRIDGE.md) для использования при инициализации модулей.
 - Инициализация контейнера для файлов DOM.
 - [Загрузка модулей](modules/loader/MODULELOADER.md).
 - Внедрение [бандлов](injectors/BUNDLEINJECTOR.md) (пакетов) и [стилей](injectors/STYLEJECTORDOM.md).

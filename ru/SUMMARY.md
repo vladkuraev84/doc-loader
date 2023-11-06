@@ -17,7 +17,7 @@
 # Вспомогательные классы
 
 * [Bundler](BUNDLER.md)
-* [Bridge](BRIDGE.md)
+* [Bridge](bridge/BRIDGE.md)
 * [FormWorker](FORMWORKER.md)
 * [ParamsWorker](PARAMSWORKER.md)
 * [SchemesController](SCHEMESCONTROLLER.md)
@@ -36,6 +36,6 @@
   * [DomLoader](modules/loader/DOMLOADER.md)
   * [DatepickerLoader](modules/list/datepicker/DATEPICKERLOADER.md)
   * [DatepickerLocalization](modules/list/datepicker/DATEPICKERLOCALIZATION.md)
-* [Loaders classes](loaders/README.md)
-  * [ContentLoader](loaders/CONTENTLOADER.md)
-  * [HtmlLoader](loaders/HTMLLOADER.md)
+* [Content-Loaders classes](content-loaders/README.md)
+  * [ContentLoader](content-loaders/CONTENTLOADER.md)
+  * [HtmlLoader](content-loaders/HTMLLOADER.md)

@@ -1,4 +1,4 @@
-var copyBlocks = document.querySelectorAll("div.copy-block")
+let copyBlocks = document.querySelectorAll("div.copy-block")
 
 copyBlocks.forEach(div => {
   const btn = div.querySelector("button");
