@@ -1,6 +1,6 @@
 ## Bandler
 
-_src/classes/bundler.ts_
+_src/bundler.ts_
 
 > Класс **Bandler** предназначен для получения URL.
 

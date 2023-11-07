@@ -1,6 +1,6 @@
 ## UrlService
 
-_src/classes/informator/url.service.ts_
+_src/informator/url.service.ts_
 
 > Класс **UrlService** отвечает за получение маршрута(пути) куда пользователем были загружены `scheme.json` и `locales.json`.
 

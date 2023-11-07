@@ -1,6 +1,6 @@
 ## StyleInjector
 
-_src/classes/injectors/style-injector.ts_
+_src/injectors/style-injector.ts_
 
 > Класс **StyleInjector** предназначен для добавления **main.css** в DOM.
 

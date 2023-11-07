@@ -1,6 +1,6 @@
 ## Informator
 
-_src/classes/informator/index.ts_
+_src/informator/index.ts_
 
 > Класс **Informator** является основным в данной секции. Предназначен для фильтрации и группирования данных из **scheme and locales** согласно **[FormParams](../FORMPARAMS.md)**.
 

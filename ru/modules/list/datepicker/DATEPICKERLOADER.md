@@ -1,6 +1,6 @@
 # DatepickerLoader
 
-_src/classes/modules/list/datipicker/index.ts_
+_src/modules/list/datipicker/index.ts_
 
 > Класс **DatepickerLoader** предоставляет функциональность для загрузки и настройки модуля для выбора даты (`datepicker`). Этот класс отвечает за загрузку необходимых файлов, включая файлы **JavaScript** и **CSS**, а также локализации для модуля. Ниже представлено описание класса и его методов.
 

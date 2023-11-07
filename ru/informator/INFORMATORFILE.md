@@ -1,6 +1,6 @@
 ## InformatorFile
 
-_src/classes/informator/informator-file.ts_
+_src/informator/informator-file.ts_
 
 > Класс **InformatorFile** отвечает за обработку маршрута(пути) куда пользователем локально были загружены `scheme.json` и `locales.json`.
 

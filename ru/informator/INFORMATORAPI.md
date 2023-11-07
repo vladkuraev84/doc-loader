@@ -1,6 +1,6 @@
 ## InformatorApi
 
-_src/classes/informator/informator-api.ts_
+_src/informator/informator-api.ts_
 
 > Класс **InformatorApi** отвечает за обработку маршрута(пути) куда пользователем будут загружены `scheme.json` и `locales.json`.
 

@@ -1,5 +1,5 @@
 # HtmlLoader
 
-_src/classes/loaders/html-loader.ts_
+_src/loaders/html-loader.ts_
 
 > Класс **HtmlLoader** .

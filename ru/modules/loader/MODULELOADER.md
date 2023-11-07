@@ -1,6 +1,6 @@
 # ModuleLoader
 
-_src/classes/modules/loader/module-loader.ts_
+_src/modules/loader/module-loader.ts_
 
 > Класс **ModuleLoader** в конструкторе инициализирует модули по названиям.
 

@@ -1,5 +1,5 @@
 # ContentLoader
 
-_src/classes/loaders/content-loader.ts_
+_src/loaders/content-loader.ts_
 
-> Класс **ContentLoader** выполняет процесс загрузки [HtmlLoader](./HTMLLOADER.md).
+> Класс **ContentLoader** выполняет инициализацию и процесс загрузки [HtmlLoader](html-loader/HTMLLOADER.md).

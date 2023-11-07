@@ -1,6 +1,6 @@
 ## FormWorker
 
-_src/classes/form-worker.ts_
+_src/form-worker.ts_
 
 > Класс **FormWorker** предназначен для получения форм по `tag` имени.
 

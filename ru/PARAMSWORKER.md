@@ -1,6 +1,6 @@
 ## ParamsWorker
 
-_src/classes/params-worker.ts_
+_src/params-worker.ts_
 
 > Класс **ParamsWorker** предназначен для работы с [параметрами](FORMPARAMS.md) форм(ы).
 

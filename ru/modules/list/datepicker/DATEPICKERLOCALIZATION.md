@@ -1,6 +1,6 @@
 # DatepickerLocalization
 
-_src/classes/modules/list/datipicker/localization.ts_
+_src/modules/list/datipicker/localization.ts_
 
 > Класс **DatepickerLocalization** предоставляет функциональность для настройки локализации плагина выбора даты (`datepicker`). Он отвечает за определение и загрузку соответствующих локализаций, которые будут использоваться в зависимости от языка сайта.
 

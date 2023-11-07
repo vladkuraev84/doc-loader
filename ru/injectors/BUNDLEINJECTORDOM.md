@@ -1,6 +1,6 @@
 ## BundleInjectorDom
 
-_src/classes/injectors/bundle-injector-dom.ts_
+_src/injectors/bundle-injector-dom.ts_
 
 > Класс **BundleInjectorDom** предназначен для добавления **script** в DOM.
 

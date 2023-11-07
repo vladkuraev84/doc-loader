@@ -1,6 +1,6 @@
 # ModulesController
 
-_src/classes/modules/index.ts_
+_src/modules/index.ts_
 
 > Класс **ModulesController** ответственный за управление и загрузку модулей на основе переданных схем.
 
