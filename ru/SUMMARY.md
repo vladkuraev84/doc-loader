@@ -7,18 +7,22 @@
 * [Корень проекта](ROOTPROJECT.md)
 * [vite.config.ts](VITECONFIG.md)
 
-# Основной класс. Конфиг
+# Атрибуты
 
 * [Атрибуты виджета](ATTRIBUTES.md)
+
+# Основной класс. Конфиг
+
 * [FormParams](FORMPARAMS.md)
 * [Config](CONFIG.md)
 * [Загрузчик Виджет-формы](RUNFORM.md)
 
-# Вспомогательные классы
+# Вспомогательные классы и файлы
 
 * [Bundler](BUNDLER.md)
 * [FormWorker](FORMWORKER.md)
 * [ParamsWorker](PARAMSWORKER.md)
+* [Consts](CONSTS.md)
 * [SchemesController](SCHEMESCONTROLLER.md)
 
 * [Injectors classes](injectors/README.md)
