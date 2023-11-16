@@ -2,7 +2,7 @@
 
 _src/informator/index.ts_
 
-> Класс **Informator** является основным в данной секции. Предназначен для фильтрации и группирования данных из **scheme and locales** согласно **[FormParams](../FORMPARAMS.md)**.
+> Класс **Informator** является основным в данной секции. Предназначен для фильтрации и группирования данных из **scheme and locales** согласно **[FormParams](../PARAMSWORKER.md)**.
 
 ### Поля класса
 
@@ -17,7 +17,7 @@ _src/informator/index.ts_
 
 | Метод / Класс               | Описание                                                                                                                                                                      |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **formParams**              | провалидированные параметры форм(ы) - [FormParams](../FORMPARAMS.md)                                                                                                          |
+| **formParams**              | провалидированные параметры форм(ы) - [FormParams](../PARAMSWORKER.md)                                                                                                          |
 | **new UrlService()**        | класс, отвечающий за получение уникальных путей API. Более подробно смотри описание [здесь](URLSERVICE.md)                                                                    |
 | **new DownloaderService()** | класс, отвечающий за получение маршрута(пути) куда пользователем будут загружены `scheme.json` и `locales.json`. Более подробно смотри описание [здесь](DOWNLOADERSERVICE.md) |
 
@@ -29,8 +29,8 @@ _src/informator/index.ts_
 |----------------------------------|----------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **processApi()**                 | private  | возвращает массив адреса(ов) пути **scheme.json** и **locales.json** из API клиента, если **.json**-файлы размещены на стороннем API.                 |
 | **processPaths()**               | private  | возвращает массив адреса(ов) пути **scheme.json** и **locales.json**                                                                                  |
-| **download()**                   | private  | возвращает массив отфильтрованных и сгруппированных данных **scheme.json** и **locales.json** согласно уникальным [initContentPath](../FORMPARAMS.md) |
-| **groupFilesByUrl(files, urls)** | private  | метод, который группирует данные из **scheme.json** и **locales.json** в массив объектов согласно ключу(ам) [initContentPath](../FORMPARAMS.md)       |
+| **download()**                   | private  | возвращает массив отфильтрованных и сгруппированных данных **scheme.json** и **locales.json** согласно уникальным [initContentPath](../PARAMSWORKER.md) |
+| **groupFilesByUrl(files, urls)** | private  | метод, который группирует данные из **scheme.json** и **locales.json** в массив объектов согласно ключу(ам) [initContentPath](../PARAMSWORKER.md)       |
 
 
 ### Импорты
@@ -42,7 +42,7 @@ import {InformatorApi} from './informator-api';
 import {InformatorFile} from './informator-file';
 import {UrlService} from './url.service';
 import {DownloaderService} from './downloader.service';
-import type {FormParams} from '@/types/common.types';
+import type {FormParams} from '@/params-worker/types';
 import type {Scheme} from '@/types/scheme.types';
 import type {Locales} from '@/types/locales.types';
 import type {FilesList, Group} from './types';

@@ -28,6 +28,6 @@ _src/injectors/style-injector.ts_
 
 ```ts
 import {MainInjectorDom} from './main-injector-dom';
-import {ParamsWorker} from '@/classes/params-worker';
-import type {FormParams} from '@/types/common.types';
+import {ParamsWorker} from '@/params-worker';
+import type {FormParams} from '@/params-worker/types';
 ```

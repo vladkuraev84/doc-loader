@@ -15,9 +15,9 @@ _src/informator/url.service.ts_
 
 | Название           | Префикс | Описание метода                                                                       |
 |--------------------|---------|---------------------------------------------------------------------------------------|
-| **addAll(params)** | -       | перебор [параметров](../FORMPARAMS.md) формы                                          |
+| **addAll(params)** | -       | перебор [параметров](../PARAMSWORKER.md) формы                                          |
 | **add(params)**    | private | проверка параметров на использование адреса размещения `scheme.json` и `locales.json` |
-| **getUnionUrls()** | -       | получение из [параметров](../FORMPARAMS.md) формы уникальных путей                    |
+| **getUnionUrls()** | -       | получение из [параметров](../PARAMSWORKER.md) формы уникальных путей                    |
 | **clear()**        | -       | очистка полей                                                                         |
 
 
@@ -26,5 +26,5 @@ _src/informator/url.service.ts_
 В начале кода есть импорты.
 
 ```ts
-import type {FormParams} from '@/types/common.types';
+import type {FormParams} from '@/params-worker/types';
 ```

@@ -8,7 +8,7 @@ _src/bridge/index.ts_
 
 | Название        | Префикс | Описание метода                                                                                                                                                           |
 |-----------------|---------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **send(files)** | static  | сохранение `scheme.json` и `locales.json` из {% include "../helpers/jsonsLink.md" %} форм согласно ключам равные [`initContentPath`](../FORMPARAMS.md) в параметрах формы |
+| **send(files)** | static  | сохранение `scheme.json` и `locales.json` из {% include "../helpers/jsonsLink.md" %} форм согласно ключам равные [`initContentPath`](../PARAMSWORKER.md) в параметрах формы |
 
 ### Импорты
 

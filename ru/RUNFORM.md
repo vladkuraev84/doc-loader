@@ -48,8 +48,8 @@ _src/index.ts_
 В начале кода есть импорты типов.
 
 ```ts
-import type {FormParams} from '@/types/common.types';
-import type {FormInformations, Group} from '@/classes/informator/types';
-import type {HTMLForms} from '@/classes/form-worker';
+import type {FormParams} from '@/params-worker/types';
+import type {FormInformations, Group} from '@/informator/types';
+import type {HTMLForms} from '@/form-worker';
 import type {Scheme} from '@/types/scheme.types';
 ```

@@ -1,22 +1,26 @@
-## ParamsWorker
+## Параметры формы
 
-_src/params-worker.ts_
+_src/params-worker/types.ts_
 
-> Класс **ParamsWorker** предназначен для работы с [параметрами](FORMPARAMS.md) форм(ы).
+Данные параметры формы взяты с [Атрибутов](ATTRIBUTES.md) для упрощения дальнейшей работы в коде проекта **Loader**.
+Где:
 
-### Методы класса
-
-| Название                                                      | Префикс | Описание метода                                                             |
-|---------------------------------------------------------------|---------|-----------------------------------------------------------------------------|
-| **get(form)**                                                 | static  | метод для получения [параметров](FORMPARAMS.md) формы.                      |
-| **validate({projectId, page, initContentPath, useApi, dev})** | static  | метод для проверки [параметров](FORMPARAMS.md) формы.                       |
-| **getInitContentPath(params)**                                | static  | метод для получения `initContentPath` из [параметров](FORMPARAMS.md) формы. |
-| **hasAnyDevParam(params)**                                    | static  | метод для получения режима `dev` если таков имеется.                        |
-
-### Импорты
-
-В начале кода есть импорт типов.
+| FormParams          | Поле атрибута       |
+|---------------------|---------------------|
+| **projectId**       | = `data-project-id` |
+| **page**            | = `data-page`       |
+| **initContentPath** | = `data-path`       |
+| **useApi**          | = `data-use-api`    |
+| **dev**             | = `data-dev`        |
 
 ```ts
-import type {FormParams} from '@/types/common.types';
+export interface FormParams {
+  projectId: string;
+  page: string;
+  // using in BundleInjector as local path
+  initContentPath?: string;
+  // if true - use API, else - use file
+  useApi?: boolean;
+  dev?: boolean;
+}
 ```

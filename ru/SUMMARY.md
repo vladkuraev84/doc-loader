@@ -13,7 +13,7 @@
 
 # Основной класс. Конфиг
 
-* [FormParams](FORMPARAMS.md)
+* [ParamsWorker](PARAMSWORKER.md)
 * [Config](CONFIG.md)
 * [Загрузчик Виджет-формы](RUNFORM.md)
 
