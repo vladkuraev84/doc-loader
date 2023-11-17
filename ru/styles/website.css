@@ -9,6 +9,10 @@
     display: none !important;
 }
 
+.markdown-section {
+    padding-bottom: 10px;
+}
+
 .markdown-section pre {
     border-radius: 10px;
     background: #343434;

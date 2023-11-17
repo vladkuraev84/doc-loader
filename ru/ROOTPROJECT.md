@@ -31,19 +31,11 @@
 
 ### [src/bridge](bridge/README.md)
 
-Директория **src/bridge** содержит классы, **type и interface**, связанные с сохранением данных в **storage** глобального объекта **window**.
-
-### [src/bridge/storage](bridge/storage/LOADERSTORAGE.md)
-
-Директория **src/bridge/storage** содержит класс, связанные с инициализацией **storage** глобального объекта **window**, сохранение данных по ключам, получение **htmls** контента из **storage** для дальнейшей работы с **html**. Раздел так же содержит файл с export **type и interface**
+Директория **src/bridge** содержит классы, типы и интерфейсы, связанные с сохранением данных формы(или нескольких форм) в объект **storage** глобального объекта **window**.
 
 ### src/content-loaders
 
-Директория **src/content-loaders** содержит класс, связанные с 
-
-### src/content-loaders/html-loader
-
-Директория **src/content-loaders/html-loader** содержит класс, связанные с 
+Директория **src/content-loaders** содержит классы, связанные с обработкой данных файлов `*.jsons` из `content/htms/` проекта **{% include "helpers/jsonsLink.md" %}**.
 
 ### src/injectors
 

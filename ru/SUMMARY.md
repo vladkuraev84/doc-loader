@@ -21,7 +21,6 @@
 
 * [Bundler](BUNDLER.md)
 * [FormWorker](FORMWORKER.md)
-* [ParamsWorker](PARAMSWORKER.md)
 * [Consts](CONSTS.md)
 * [SchemesController](SCHEMESCONTROLLER.md)
 
