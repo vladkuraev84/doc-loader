@@ -45,3 +45,4 @@
 * [Content-Loaders classes](content-loaders/README.md)
   * [ContentLoader](content-loaders/CONTENTLOADER.md)
   * [HtmlLoader](content-loaders/html-loader/HTMLLOADER.md)
+  * [HtmlDownloader](content-loaders/html-loader/HTMLDOWNLOADER.md)
