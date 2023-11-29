@@ -36,6 +36,10 @@
     border-radius: 6px;
 }
 
+.color-theme-2 .markdown-section table {
+    box-shadow: 0 0 0 1px #5a5a5a;
+}
+
 @media (max-width:1240px) {
     .book .book-body .page-wrapper .page-inner {
         padding-left: 15px;
