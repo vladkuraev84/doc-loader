@@ -2,7 +2,7 @@
 
 _src/informator/informator-api.ts_
 
-> Класс **InformatorApi** отвечает за обработку маршрута(пути) куда пользователем будут загружены `scheme.json` и `locales.json`.
+> Класс **InformatorApi** отвечает за обработку маршрута(пути) куда пользователем будут загружены `scheme.json` и `locales.json` из СТОРОННЕГО API клиента.
 
 ### Методы класса
 

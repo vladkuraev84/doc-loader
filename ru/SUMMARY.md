@@ -30,6 +30,8 @@
   * [StyleInjector](injectors/STYLEJECTORDOM.md)
 * [Informator classes](informator/README.md)
   * [Informator](informator/INFORMATOR.md)
+  * [InformatorApi](informator/INFORMATORAPI.md)
+  * [InformatorFile](informator/INFORMATORFILE.md)
   * [UrlService](informator/URLSERVICE.md)
   * [DownloaderService](informator/DOWNLOADERSERVICE.md)
 * [Modules classes](modules/README.md)
