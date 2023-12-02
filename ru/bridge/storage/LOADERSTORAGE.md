@@ -15,7 +15,7 @@ _src/bridge/storage/loader-storage.ts_
 
 &#42;data - `scheme.jsons` и `locales.jsons` из {% include "../../helpers/jsonsLink.md" %}.
 
-&#42;key - ключ равен полю **[initContentPath](../../PARAMSWORKER.md)** из интерфейса FormParams.
+&#42;key - ключ равен полю **[initContentPath](../../params-worker/PARAMSWORKERTYPES.md)** из интерфейса FormParams.
 
 ### Импорты
 

@@ -13,7 +13,9 @@
 
 # Основной класс. Конфиг
 
-* [ParamsWorker](PARAMSWORKER.md)
+* [ParamsWorker](params-worker/README.md)
+  * [ParamsWorker](params-worker/PARAMSWORKER.md)
+  * [Types](params-worker/PARAMSWORKERTYPES.md)
 * [Config](CONFIG.md)
 * [Загрузчик Виджет-формы](RUNFORM.md)
 
@@ -27,7 +29,8 @@
 * [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)
   * [BundleInjectorDom](injectors/BUNDLEINJECTORDOM.md)
-  * [StyleInjector](injectors/STYLEJECTORDOM.md)
+  * [StyleInjector](injectors/STYLEINJECTORDOM.md)
+  * [DomService](injectors/DOMSERVICE.md)
 * [Informator classes](informator/README.md)
   * [Informator](informator/INFORMATOR.md)
   * [InformatorApi](informator/INFORMATORAPI.md)

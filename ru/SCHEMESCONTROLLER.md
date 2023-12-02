@@ -19,7 +19,7 @@ _src/schemes-controller.ts_
 
 | Название                   | Префикс  | Описание метода                                                                                                    |
 |----------------------------|----------|--------------------------------------------------------------------------------------------------------------------|
-| **getAnyConfig(schemes)**  | private  | метод для получения [параметров](PARAMSWORKER.md) формы.                                                           |
+| **getAnyConfig(schemes)**  | private  | метод для получения [параметров](params-worker/PARAMSWORKERTYPES.md) формы.                                                           |
 | **getAvailableLangs()**    | static   | метод возвращает массив доступных языков из **scheme.config.localization** из {% include "helpers/jsonsLink.md" %} |
 
 ### Импорты

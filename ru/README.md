@@ -44,13 +44,13 @@
 
 Так же код выполняет следующие шаги:
 
-- Получение формы виджета и извлечение [параметров](PARAMSWORKER.md) из [атрибутов](ATTRIBUTES.md) формы.
-- Проверка параметров на [валидность](PARAMSWORKER.md).
+- Получение формы виджета и извлечение [параметров](params-worker/PARAMSWORKERTYPES.md) из [атрибутов](ATTRIBUTES.md) формы.
+- Проверка параметров на [валидность](params-worker/PARAMSWORKERTYPES.md).
 - Получение информации о [схеме и локалях](https://docks-scheme-demo.netlify.app/) для внедрения модулей.
 - Отправка данных о схеме и локалях в приложение виджета ({% include "helpers/playerLink.md" %}).
 - Сохранение схемы в [storage](bridge/BRIDGE.md) для использования при инициализации модулей.
 - Инициализация контейнера для файлов DOM.
 - [Загрузка модулей](modules/loader/MODULELOADER.md).
-- Внедрение [бандлов js-файлов](injectors/BUNDLEINJECTOR.md) (пакетов) и [css стилей](injectors/STYLEJECTORDOM.md).
+- Внедрение [бандлов js-файлов](injectors/BUNDLEINJECTOR.md) (пакетов) и [css стилей](injectors/STYLEINJECTORDOM.md).
 - Обработку данных для работы с несколькими формами в пределах одной HTML-страницы. 
 - Этот код представляет собой точку входа для загрузки и инициализации виджета-формы.

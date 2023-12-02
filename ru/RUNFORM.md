@@ -10,16 +10,16 @@ _src/index.ts_
 
 | Название                                           | Описание                                                                                                                       |
 |----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| **[StyleInjector](injectors/STYLEJECTORDOM.md)**   | Класс, отвечающий за подключение стилей в приложение.                                                                          |
+| **[StyleInjector](injectors/STYLEINJECTORDOM.md)** | Класс, отвечающий за подключение стилей в приложение.                                                                          |
 | **[FormWorker](FORMWORKER.md)**                    | Класс, предназначенный для работы с HTML-формами.                                                                              |
-| **[ParamsWorker](PARAMSWORKER.md)**                | Класс, обрабатывающий параметры форм.                                                                                          |
+| **[ParamsWorker](params-worker/PARAMSWORKER.md)**  | Класс, обрабатывающий параметры форм.                                                                                          |
 | **[Informator](informator/INFORMATOR.md)**         | Класс, предоставляющий информацию для приложения: адрес(URL) размещения бандла и файлы из **forms-jsons**(`scheme и locales`). |
-| **[Bridge](bridge/BRIDGE.md)**                            | Класс, предназначен для сохранения данных в storage.                                                                           |
+| **[Bridge](bridge/BRIDGE.md)**                     | Класс, предназначен для сохранения данных в storage.                                                                           |
 | **[BundleInjector](injectors/BUNDLEINJECTOR.md)**  | Класс, отвечающий за формирование, подключение и валидацию бандлов (пакетов).                                                  |
 | **[ModuleLoader](modules/loader/MODULELOADER.md)** | Класс, загружающий модули согласно схемы(`scheme`).                                                                            |
 | **[DomLoader](modules/loader/DOMLOADER.md)**       | Класс, загружающий файлы DOM(`js и style` в `div id='`[filesContainerId](CONFIG.md)`'`).                                       |
 | **[SchemesController](SCHEMESCONTROLLER.md)**      | Класс, управляющий схемой.                                                                                                     |
-| **[ContentLoader](content-loaders/README.md)**             | Класс, предназначенный для загрузки html-контента, файла.                                                                      |
+| **[ContentLoader](content-loaders/README.md)**     | Класс, предназначенный для загрузки html-контента, файла.                                                                      |
 
 Также импортируются различные типы данных из файлов **@/params-worker/types**, **@/informator/types**, **@/form-worker**, **./types/scheme.types**. Эти типы данных используются для аннотации переменных и параметров функций.
 
