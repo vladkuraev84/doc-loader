@@ -28,7 +28,6 @@
 
 * [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)
-  * [BundleInjectorDom](injectors/BUNDLEINJECTORDOM.md)
   * [StyleInjector](injectors/STYLEINJECTORDOM.md)
   * [DomService](injectors/DOMSERVICE.md)
 * [Informator classes](informator/README.md)
