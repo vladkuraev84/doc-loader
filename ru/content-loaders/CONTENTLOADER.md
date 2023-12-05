@@ -2,7 +2,9 @@
 
 _src/loaders/content-loader.ts_
 
-> Класс **ContentLoader** выполняет инициализацию и процесс загрузки [HtmlLoader](html-loader/HTMLLOADER.md).
+{% hint style="tip" %}
+Класс **ContentLoader** выполняет инициализацию и процесс загрузки [HtmlLoader](html-loader/HTMLLOADER.md).
+{% endhint %}
 
 ## Конструктор класса
 

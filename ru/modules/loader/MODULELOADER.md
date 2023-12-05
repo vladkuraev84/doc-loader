@@ -2,7 +2,9 @@
 
 _src/modules/loader/module-loader.ts_
 
-> Класс **ModuleLoader** в конструкторе инициализирует модули по названиям.
+{% hint style="tip" %}
+Класс **ModuleLoader** в конструкторе инициализирует модули по названиям.
+{% endhint %}
 
 ### Конструктор класса
 

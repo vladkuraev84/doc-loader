@@ -2,7 +2,9 @@
 
 _src/injectors/dom.service.ts_
 
-> Класс **DomService** предназначен для обработки процесса добавления DOM узла (`<script type="text/javascript" src="my-src" ... ></script>` / `<link type="text/css" ... />`) в HTML.
+{% hint style="tip" %}
+Класс **DomService** предназначен для обработки процесса добавления DOM узла (`<script type="text/javascript" src="my-src" ... ></script>` / `<link type="text/css" ... />`) в HTML.
+{% endhint %}
 
 ### Методы класса
 

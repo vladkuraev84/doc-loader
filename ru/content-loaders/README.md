@@ -1,6 +1,8 @@
 # Классы загрузки контента, файлов
 
-Директория **src/content-loaders** содержит классы, связанные с загрузкой HTML-контента и файлов.
+{% hint style="tip" %}
+Директория **src/content-loaders** содержит классы, связанные с загрузкой HTML-контента и файлов. Данный раздел разработан для применения большого количества контента с возможностью присвоения классов html-элементам контента, возможность _многоуровневой_ вложенности (Пример 1), а так же загрузки медиа-файлов.
+{% endhint %}
 
 ### Классы директории
 
@@ -9,3 +11,13 @@
 | **[ContentLoader](CONTENTLOADER.md)**               | Класс, инициализирующий класс [HtmlLoader](html-loader/HTMLLOADER.md) с исполнением метода **process()** HtmlLoader-класса.                                                                                        |
 | **[HtmlLoader](html-loader/HTMLLOADER.md)**         | Класс, отвечающий за перебор **`*.jsons`**, который расположен в **htmls** в {% include "../helpers/jsonsLink.md" %} и последующей ассинхронной обработке в [HtmlDownloader](html-loader/HTMLLOADER.md)            |
 | **[HtmlDownloader](html-loader/HTMLDOWNLOADER.md)** | Класс, отвечающий за ассинхронную обработку и дальнейшую передачу данных из **`*.jsons`**, который расположен в **htmls** из {% include "../helpers/jsonsLink.md" %} в [BridgeContent](../bridge/BRIDGECONTENT.md) |
+
+### Пример 1
+
+```html
+<p class=my-class>
+    <a>
+        <span>text</span>
+    </a>
+</p>
+```

@@ -2,7 +2,12 @@
 
 _src/schemes-controller.ts_
 
-> Класс **SchemesController** служит для получения параметров конфига(**config**) формы с `scheme.json`(**{% include "helpers/jsonsLink.md" %}**) и список доступных языков из объекта **localization** в **scheme.config**(**NextFormJs/jsons**).
+{% hint style="tip" %}
+Класс **SchemesController** служит для получения параметров конфига(**config**) формы с [!] `scheme.json` и список доступных языков из объекта **localization** в **scheme.config**(**NextFormJs/jsons**).
+{% endhint %}
+
+[!] {% include "helpers/jsonsLink.md" %}
+
 
 ### Поля класса
 

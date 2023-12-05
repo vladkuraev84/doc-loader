@@ -2,7 +2,9 @@
 
 _src/informator/index.ts_
 
-> Класс **Informator** является основным в данной секции. Предназначен для фильтрации и группирования данных из **scheme and locales** согласно **[FormParams](../params-worker/PARAMSWORKERTYPES.md)**.
+{% hint style="tip" %}
+Класс **Informator** является основным в данной секции. Предназначен для фильтрации и группирования данных из **scheme and locales** согласно **[FormParams](../params-worker/PARAMSWORKERTYPES.md)**.
+{% endhint %}
 
 ### Поля класса
 

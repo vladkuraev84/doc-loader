@@ -2,7 +2,10 @@
 
 _src/params-worker/types.ts_
 
+{% hint style="working" %}
 Данные параметры формы взяты с [Атрибутов](../ATTRIBUTES.md) для упрощения дальнейшей работы в коде проекта **Loader**.
+{% endhint %}
+
 Где:
 
 | FormParams          | Поле атрибута       |

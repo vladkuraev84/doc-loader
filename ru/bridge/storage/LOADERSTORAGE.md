@@ -2,7 +2,11 @@
 
 _src/bridge/storage/loader-storage.ts_
 
-> Класс **LoaderStorage** предназначен для инициализации объекта **storage** в глобальном объекте **window**, куда будут сохранены данные, полученные из {% include "../../helpers/jsonsLink.md" %}.
+{% hint style="tip" %}
+Класс **LoaderStorage** предназначен для инициализации объекта **storage** в глобальном объекте **window**, куда будут сохранены данные из [!]`**.jsons`.
+{% endhint %}
+
+[!] {% include "../../helpers/jsonsLink.md" %}
 
 ### Методы класса
 

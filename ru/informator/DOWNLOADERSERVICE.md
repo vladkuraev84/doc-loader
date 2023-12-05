@@ -2,7 +2,9 @@
 
 _src/informator/downloader.service.ts_
 
-> Класс **DownloaderService** отвечает за обработку маршрута(пути) содержимого файлов куда пользователем будут загружены `scheme.json` и `locales.json`.
+{% hint style="tip" %}
+Класс **DownloaderService** отвечает за обработку маршрута(пути) содержимого файлов куда пользователем будут загружены `scheme.json` и `locales.json`.
+{% endhint %}
 
 ### Поля класса
 

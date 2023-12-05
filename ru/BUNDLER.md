@@ -2,7 +2,9 @@
 
 _src/bundler.ts_
 
-> Класс **Bandler** предназначен для получения URL.
+{% hint style="tip" %}
+Класс **Bandler** предназначен для получения URL.
+{% endhint %}
 
 ### Методы класса
 

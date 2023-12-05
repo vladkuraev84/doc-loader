@@ -2,7 +2,9 @@
 
 _src/loaders/html-downloader.ts_
 
-> Класс **HtmlDownloader** предназначен для перебора файлов **`*.jsons`**, которые расположены в **htmls** в {% include "../../helpers/jsonsLink.md" %} и последующей ассинхронной обработке чтобы в последующем сохранить данные в **storage**.
+{% hint style="tip" %}
+Класс **HtmlDownloader** отвечающий за ассинхронную обработку и последующую передачу данных в [BridgeContent](../../bridge/BRIDGECONTENT.md).
+{% endhint %}
 
 ## Конструктор класса
 

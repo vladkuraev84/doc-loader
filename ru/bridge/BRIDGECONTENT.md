@@ -2,12 +2,10 @@
 
 _src/bridge/content.ts_
 
-{% hint style="working" %}
-Данный раздел разработан для применения большого количества контента с возможностью присвоения классов html-элементам содержимому контента, а так же загрузки медиа-файлов.
+{% hint style="tip" %}
+Класс **BridgeContent** предназначен для обработки контента `content/htmls` из {% include "../helpers/jsonsLink.md" %}.
 {% endhint %}
-
-> Класс **BridgeContent** предназначен для обработки контента `content/htmls` из {% include "../helpers/jsonsLink.md" %}.
-
+ 
 ### Поля класса
 
 | Название            | Префикс | Описание                                                                                                           |
