@@ -1,9 +1,9 @@
-## SchemesController
+## SchemesService
 
-_src/schemes-controller.ts_
+_src/schemes.service.ts_
 
 {% hint style="tip" %}
-Класс **SchemesController** служит для получения параметров конфига(**config**) формы с [!] `scheme.json` и список доступных языков из объекта **localization** в **scheme.config**(**NextFormJs/jsons**).
+Класс **SchemesService** служит для получения параметров конфига(**config**) формы с [!] `scheme.json` и список доступных языков из объекта **localization** в **scheme.config**(**NextFormJs/jsons**).
 {% endhint %}
 
 [!] {% include "helpers/jsonsLink.md" %}
@@ -17,7 +17,7 @@ _src/schemes-controller.ts_
 
 ### Конструктор класса
 
-Конструктор класса **SchemesController** выполняется при создании экземпляра класса. Он принимает массив **schemes** с последующим присвоением к полю **config** результат выполнения `private` метода `getAnyConfig(schemes)` получения конфигураций из **scheme.config** из {% include "helpers/jsonsLink.md" %}.
+Конструктор класса **SchemesService** выполняется при создании экземпляра класса. Он принимает массив **schemes** с последующим присвоением к полю **config** результат выполнения `private` метода `getAnyConfig(schemes)` получения конфигураций из **scheme.config** из {% include "helpers/jsonsLink.md" %}.
 
 
 ### Методы класса

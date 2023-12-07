@@ -1,6 +1,6 @@
 ## ParamsWorker
 
-_src/bundler.ts_
+_src/params-worker/index.ts_
 
 {% hint style="tip" %}
 Класс **ParamsWorker** предназначен для обработки, валидации и получения дата-атрибутов виджета.
@@ -12,7 +12,7 @@ _src/bundler.ts_
 |---------------------------------------------------------------|---------|------------------------------------------------------------------------------------------|
 | **get(form)**                                                 | static  | Метод возвращает дата-атрибуты виджета.                                                  |
 | **validate({projectId, page, initContentPath, useApi, dev})** | static  | Метод для проверки наличия заполненных атрибутов виджета.                                |
-| **getInitContentPath(params)**                                | static  | Метод, предназначеный для возвращения параметра [initContentPath](PARAMSWORKERTYPES.md). |
+| **getAnyInitContentPath(params)**                             | static  | Метод, предназначеный для возвращения параметра [initContentPath](PARAMSWORKERTYPES.md). |
 | **hasAnyDevParam(params)**                                    | static  | Метод проверки на наличие `dev` режима.                                                  |
 
 ### Импорты

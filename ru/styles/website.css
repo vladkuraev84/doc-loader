@@ -4,7 +4,6 @@
     padding: 20px 90px 40px 90px;
 }
 
-
 .book-summary .summary >li:last-child, .book-header h1 {
     display: none !important;
 }
@@ -30,6 +29,7 @@
     overflow: hidden;
     margin-left: 1px;
     margin-right: 1px;
+    text-align: left;
 }
 
 .color-theme-2 .dropdown-menu {

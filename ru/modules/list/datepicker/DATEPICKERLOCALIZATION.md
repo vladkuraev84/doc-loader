@@ -33,7 +33,7 @@ _src/modules/list/datipicker/localization.ts_
 
 ```ts
 import {basePath} from './config';
-import {SchemesController} from '@/classes/schemes-controller';
+import {SchemesService} from '@/schemes.service';
 import type {Module} from '@/types/scheme.types';
 ```
 

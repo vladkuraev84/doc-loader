@@ -31,7 +31,7 @@
 
 2) NextFormJs/loader - текущая документация.
 
-3) {% include "helpers/playerLink.md" %} - сборщик, принимает {% include "helpers/jsonsLink.md" %} и **Loader** (текущая документация), обрабатывает данные и формирует уже готовую **html form**.
+3) {% include "helpers/playerLink.md" %} - принимает {% include "helpers/jsonsLink.md" %} и **Loader** (текущая документация), обрабатывает данные и рендерит уже готовую **html form**.
 
 ### Что делает 
 

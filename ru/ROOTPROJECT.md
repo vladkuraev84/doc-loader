@@ -69,9 +69,9 @@
 
 Файл с классом **FormWorker** предназначен для получения форм по `tag` имени.
 
-### [src/schemes-controller.ts](SCHEMESCONTROLLER.md)
+### [src/schemes-controller.ts](SCHEMESSERVICE.md)
 
-Файл с классом **SchemesController** служит для получения параметров конфига.
+Файл с классом **SchemesService** служит для получения параметров конфига.
 
 ### [src/index.ts](RUNFORM.md)
 

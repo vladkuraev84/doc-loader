@@ -24,7 +24,7 @@
 * [Bundler](BUNDLER.md)
 * [FormWorker](FORMWORKER.md)
 * [Consts](CONSTS.md)
-* [SchemesController](SCHEMESCONTROLLER.md)
+* [SchemesService](SCHEMESSERVICE.md)
 
 * [Injectors classes](injectors/README.md)
   * [BundleInjector](injectors/BUNDLEINJECTOR.md)

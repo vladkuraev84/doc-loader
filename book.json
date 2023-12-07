@@ -1,7 +1,7 @@
 {
     "gitbook": ">=3.2.0",
-    "title": "Loader Form-Builder tutorial",
-    "description": "Documentation for Loader for Form-Builder",
+    "title": "Loader for NextFormJs tutorial",
+    "description": "Documentation for Loader for NextFormJs",
     "links": {
         "sidebar": {
         }
