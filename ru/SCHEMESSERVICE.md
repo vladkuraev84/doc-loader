@@ -3,10 +3,10 @@
 _src/schemes.service.ts_
 
 {% hint style="tip" %}
-Класс **SchemesService** служит для получения параметров конфига(**config**) формы с [!] `scheme.json` и список доступных языков из объекта **localization** в **scheme.config**(**NextFormJs/jsons**).
+Класс **SchemesService** служит для получения параметров конфига(**config**) формы из `scheme.json`(см. "Ссылка #1" ниже) и список доступных языков из объекта **localization** в **scheme.config**(**NextFormJs/jsons**).
 {% endhint %}
 
-[!] {% include "helpers/jsonsLink.md" %}
+Ссылка #1 - {% include "helpers/jsonsLink.md" %}
 
 
 ### Поля класса
