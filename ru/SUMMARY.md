@@ -13,11 +13,11 @@
 
 # Основной класс. Конфиг
 
+* [Loader NFL](RUNFORM.md)
 * [ParamsWorker](params-worker/README.md)
   * [ParamsWorker](params-worker/PARAMSWORKER.md)
   * [Types](params-worker/PARAMSWORKERTYPES.md)
 * [Config](CONFIG.md)
-* [Загрузчик Виджет-формы](RUNFORM.md)
 
 # Вспомогательные классы и файлы
 

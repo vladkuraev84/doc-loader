@@ -17,7 +17,7 @@ _src/bridge/storage/loader-storage.ts_
 | **saveData(key, data)**  | static  | сохраняет полученные данные(&#42;data) в **storage** по передаваемым ключам(&#42;key). |
 | **initHtmlContent(key)** | static  | сохраняет данные `content/htmls`.                                                      |
 
-&#42;data - `scheme.jsons` и `locales.jsons` из {% include "../../helpers/jsonsLink.md" %}.
+&#42;data - `scheme.json` и `locales.json` из {% include "../../helpers/jsonsLink.md" %}.
 
 &#42;key - ключ равен полю **[initContentPath](../../params-worker/PARAMSWORKERTYPES.md)** из интерфейса FormParams.
 
