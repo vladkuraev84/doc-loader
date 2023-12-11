@@ -172,3 +172,72 @@ div.copy-block button:hover {
 #book-search-results .search-results .has-results .search-results-item {
     color: inherit;
 }
+
+.markdown-section .custom-navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.markdown-section .custom-navigation .navigation {
+    position: static;
+    width: 48%;
+    padding: 4px 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: left;
+    max-width: 48%;
+}
+
+.color-theme-2 .markdown-section .custom-navigation .navigation  {
+    border-color: #5a5a5a;
+}
+
+.markdown-section .custom-navigation .navigation:hover .bottom-navigation--prev-label, .markdown-section .custom-navigation .navigation:hover .bottom-navigation--next-label {
+    color: #b9ca4a;
+}
+
+.markdown-section .custom-navigation .navigation +.navigation {
+    text-align: right;
+    margin-right: 0 !important;
+}
+
+.markdown-section .custom-navigation .navigation .bottom-navigation--prev-label, .markdown-section .custom-navigation .navigation .bottom-navigation--next-label {
+    font-weight: bold;
+}
+
+.book-body >.custom-navigation .navigation {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+
+.book-body >.custom-navigation .navigation >div {
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+}
+
+.book-body >.custom-navigation .navigation:hover {
+    border-top-color: #b9ca4a;
+    border-right-color: #b9ca4a;
+}
+
+.book-body >.custom-navigation .navigation.navigation-prev >div {
+    transform: rotate(-135deg);
+}
+
+.book-body >.custom-navigation .navigation.navigation-next >div {
+    transform: rotate(45deg);
+}
+
+@media (max-width:1240px) {
+    .book-body {
+        padding-bottom: 0;
+    }
+    .book-body >.custom-navigation {
+        display: none;
+    }
+}
