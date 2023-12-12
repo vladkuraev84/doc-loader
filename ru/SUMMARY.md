@@ -11,7 +11,7 @@
 
 * [Атрибуты виджета](ATTRIBUTES.md)
 
-### Основной класс. Конфиг. Параметры
+### Основной класс. Класс Параметров. Конфиг
 
 * [Loader NFL](RUNFORM.md)
 * [ParamsWorker](params-worker/README.md)
