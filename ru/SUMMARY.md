@@ -2,16 +2,16 @@
 
 * [Введение](README.md)
 
-# Корень проекта и основные параметры
+### Корень проекта и настройки vite
 
 * [Корень проекта](ROOTPROJECT.md)
 * [vite.config.ts](VITECONFIG.md)
 
-# Атрибуты
+### Атрибуты
 
 * [Атрибуты виджета](ATTRIBUTES.md)
 
-# Основной класс. Конфиг
+### Основной класс. Конфиг. Параметры
 
 * [Loader NFL](RUNFORM.md)
 * [ParamsWorker](params-worker/README.md)
@@ -19,7 +19,7 @@
   * [Types](params-worker/PARAMSWORKERTYPES.md)
 * [Config](CONFIG.md)
 
-# Вспомогательные классы и файлы
+### Вспомогательные классы и файлы
 
 * [Bundler](BUNDLER.md)
 * [FormWorker](FORMWORKER.md)
