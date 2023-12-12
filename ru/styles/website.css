@@ -241,3 +241,7 @@ div.copy-block button:hover {
         display: none;
     }
 }
+
+.book-summary ul.summary li.header {
+    text-transform: none;
+}
