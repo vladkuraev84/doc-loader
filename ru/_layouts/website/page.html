@@ -1,11 +1,66 @@
 {% extends template.self %}
 
-{% block header_nav %}
+{% block body %}
+<div class="book">
 
-{% endblock %}
+    {% include "website/header.html" %}
 
-{% block page %}
-    {{ super() }}
+    <div class="book-summary">
+        {% block book_sidebar %}
+
+            {% block book_summary %}
+                <nav role="navigation">
+                    {% include "website/summary.html" %}
+                </nav>
+            {% endblock %}
+        {% endblock %}
+    </div>
+
+    <div class="book-body">
+        {% block book_body %}
+        <div class="body-inner">
+            {% block book_inner %}
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                    {% block search_results %}
+                    <section class="normal markdown-section">
+                        {% block page %}
+                            <div id="book-search-results">
+                                <div class="search-noresults">
+                                    {{ super() }}
+                                </div>
+                                <div class="search-results">
+                                    <div class="has-results">
+                                        {% block search_has_results %}
+                                        <h1 class="search-results-title">{{ 'SEARCH_RESULTS_TITLE'|t|safe }}</h1>
+                                        <ul class="search-results-list"></ul>
+                                        {% endblock %}
+                                    </div>
+                                    <div class="no-results">
+                                        {% block search_no_results %}
+                                        <h1 class="search-results-title">{{ 'SEARCH_NO_RESULTS_TITLE'|t|safe }}</h1>
+                                        {% endblock %}
+                                    </div>
+                                </div>
+                            </div>
+
+                        {{ page.content|safe }}
+
+
+                        {% endblock %}
+                    </section>
+                    {% endblock %}
+                </div>
+            </div>
+            {% endblock %}
+        </div>
+
+
+
+
+        {% endblock %}
+    </div>
 
     {% block book_navigation %}
     <div class="custom-navigation">
@@ -37,4 +92,11 @@
     </div>
     {% endblock %}
 
+    <script>
+      var gitbook = gitbook || [];
+      gitbook.push(function() {
+        gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
+      });
+    </script>
+</div>
 {% endblock %}
