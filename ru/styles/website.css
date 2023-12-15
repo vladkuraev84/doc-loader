@@ -32,7 +32,15 @@
     text-align: left;
 }
 
-.color-theme-2 .dropdown-menu {
+.markdown-section a {
+    color: #009485;
+}
+
+.markdown-section a:hover {
+    color: #fa0 !important;
+}
+
+.dropdown-menu {
     border-radius: 6px;
 }
 
