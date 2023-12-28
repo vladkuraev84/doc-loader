@@ -394,3 +394,26 @@ div.copy-block button:hover {
         /*padding-left: 300px;*/
     }
 }
+
+@media screen and (max-width: 600px) {
+    .markdown-section table thead {
+        display: none !important;
+    }
+    .markdown-section table {
+        box-shadow: none !important;
+    }
+    .markdown-section table tr {
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        overflow: hidden;
+        border-top: none;
+    }
+    .markdown-section table tr + tr {
+        margin-top: 5px;
+    }
+
+    .markdown-section table td:dir('-') {
+        display: none;
+    }
+}
