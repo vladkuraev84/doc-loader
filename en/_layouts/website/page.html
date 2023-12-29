@@ -1,0 +1,97 @@
+{% extends template.self %}
+
+{% block body %}
+<div class="book">
+
+    {% include "website/header.html" %}
+
+    <div class="book-main">
+        <div class="container">
+            <div class="book-summary">
+                {% block book_sidebar %}
+                {% block book_summary %}
+                <nav role="navigation">
+                    {% include "website/summary.html" %}
+                </nav>
+                {% endblock %}
+                {% endblock %}
+            </div>
+
+            <div class="book-body">
+                {% block book_body %}
+                <div class="body-inner">
+                    {% block book_inner %}
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            {% block search_results %}
+                            <section class="normal markdown-section">
+                                {% block page %}
+                                <div id="book-search-results">
+                                    <div class="search-noresults">
+                                        {{ super() }}
+                                    </div>
+                                    <div class="search-results">
+                                        <div class="has-results">
+                                            {% block search_has_results %}
+                                            <h1 class="search-results-title">{{ 'SEARCH_RESULTS_TITLE'|t|safe }}</h1>
+                                            <ul class="search-results-list"></ul>
+                                            {% endblock %}
+                                        </div>
+                                        <div class="no-results">
+                                            {% block search_no_results %}
+                                            <h1 class="search-results-title">{{ 'SEARCH_NO_RESULTS_TITLE'|t|safe }}</h1>
+                                            {% endblock %}
+                                        </div>
+                                    </div>
+                                </div>
+                                {{ page.content|safe }}
+                                {% endblock %}
+
+                                {% block book_navigation %}
+                                <div class="custom-navigation">
+                                    {% if page.previous and page.previous.path %}
+                                    <a href="{{ page.previous.path|resolveFile }}{{ page.previous.anchor }}"
+                                       class="bottom-navigation---prev-link navigation navigation-prev {% if not (page.next and page.next.path) %}navigation-unique{% endif %}"
+                                       aria-label="Previous page: {{ page.previous.title }}">
+                                        <div>
+                                            <div class="bottom-navigation--prev-sublabel">Previous</div>
+                                            <div class="bottom-navigation--prev-label">
+                                                {{ page.previous.title }}
+                                            </div>
+                                        </div>
+                                    </a>
+                                    {% endif %}
+
+                                    {% if page.next and page.next.path %}
+                                    <a href="{{ page.next.path|resolveFile }}{{ page.next.anchor }}"
+                                       class="bottom-navigation---next-link navigation navigation-next {% if not (page.previous and page.previous.path) %}navigation-unique{% endif %}"
+                                       aria-label="Next page: {{ page.next.title }}">
+                                        <div>
+                                            <div class="bottom-navigation--next-sublabel">Next</div>
+                                            <div class="bottom-navigation--next-label">
+                                                {{ page.next.title }}
+                                            </div>
+                                        </div>
+                                    </a>
+                                    {% endif %}
+                                </div>
+                                {% endblock %}
+                            </section>
+                            {% endblock %}
+                        </div>
+                    </div>
+                    {% endblock %}
+                </div>
+                {% endblock %}
+            </div>
+        </div>
+    </div>
+
+    <script>
+      var gitbook = gitbook || [];
+      gitbook.push(function() {
+        gitbook.page.hasChanged({{ template.getJSContext()|dump|safe }});
+      });
+    </script>
+</div>
+{% endblock %}

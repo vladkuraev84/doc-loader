@@ -1,0 +1,419 @@
+.container {
+    width: 100%;
+    max-width: 1340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book .book-body .page-wrapper .page-inner {
+    margin-bottom: 3em;
+    max-width: 1400px;
+    padding: 20px 90px 40px 90px;
+}
+
+.book-summary {
+    flex: none;
+    transition: .1s all;
+}
+
+@media screen and (min-width: 601px) {
+    .book-summary {
+        position: sticky;
+        left: 0;
+        top: 50px;
+        background: transparent;
+    }
+}
+
+
+.book-summary .summary {
+    max-height: calc(100vh - 50px);
+}
+
+.book-summary .summary >li:last-child {
+    display: none !important;
+}
+
+.markdown-section {
+    padding-bottom: 10px;
+}
+
+.markdown-section pre {
+    border-radius: 10px;
+    background: #343434;
+}
+
+.markdown-section pre>code {
+    color: #fffff5;
+}
+
+.markdown-section table {
+    width: calc(100% - 2px);
+    border-radius: 10px;
+    border-style: hidden;
+    box-shadow: 0 0 0 1px #ddd;
+    overflow: hidden;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: left;
+}
+
+.markdown-section a {
+    color: #009485;
+}
+
+.markdown-section a:hover {
+    color: #fa0 !important;
+}
+
+.dropdown-menu {
+    border-radius: 6px;
+}
+
+.color-theme-2 .markdown-section table {
+    box-shadow: 0 0 0 1px #5a5a5a;
+}
+
+@media (max-width:1240px) {
+    .book .book-body .page-wrapper .page-inner {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 0;
+    }
+
+    .book.font-size-2 .book-body .page-inner section {
+        overflow-x: auto;
+    }
+
+    .markdown-section #book-search-results + h1, .markdown-section #book-search-results + h2 {
+        margin-top: 0;
+    }
+}
+
+code {
+    border-radius: 4px;
+}
+
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 8px;
+    /* ширина для вертикального скролла */
+    height: 4px;
+    /* высота для горизонтального скролла */
+    background-color: #bbb5d4;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #b3aec6;
+    border-radius: 4px;
+    box-shadow: none;
+    border: 2.5px solid transparent;
+    background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #5c5673;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 1px 0 0 #cecece;
+    background: #cecece;
+}
+
+.book-summary ul.summary li a:hover {
+    color: #008cff;
+}
+
+.book-summary ul.summary li.active>a {
+    border-left: 4px solid #008cff;
+    font-weight: 900;
+}
+
+.alert {
+    /*  padding: 15px;
+      margin-bottom: 20px;
+      color: #444;
+      background: #eee;
+      border-bottom: 5px solid #ddd*/
+
+    border-radius: 10px;
+}
+
+.alert-success { /*hint style="tip"*/
+    /*  background: #dff0d8;
+      border-color: #d6e9c6;
+      color: #3c763d*/
+}
+
+.alert-info { /*hint style="info"*/
+    /*  background: #d9edf7;
+      border-color: #bce8f1;
+      color: #31708f*/
+}
+
+.alert-danger { /*hint style="danger"*/
+    /*  background: #f2dede;
+      border-color: #ebccd1;
+      color: #a94442*/
+}
+
+.alert-warning { /*hint style="working"*/
+    /*  background: #fcf8e3;
+      border-color: #faebcc;
+      color: #8a6d3b*/
+}
+
+.alert .hints-container p {
+    margin-bottom: 0;
+}
+
+.alert .hints-container p + p {
+    margin-top: .85em;
+}
+
+/* styles for copy */
+
+div.copy-block-wr {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+div.copy-block-wr span {
+    display: inline-block;
+    margin-right: 6px;
+}
+div.copy-block code {
+    display: inline-block;
+    margin-right: 12px;
+    border-radius: 6px;
+    background: #343434;
+    color: #fff;
+}
+div.copy-block button {
+    color: green;
+    box-sizing: border-box;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+    user-select: none;
+    background: rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 5px 10px;
+    font-size: 0.8em;
+    border-radius: 4px;
+}
+div.copy-block button:hover {
+    background: rgba(65, 131, 196, 0.15);
+}
+
+/* end styles for copy */
+
+#book-search-results .search-results .has-results .search-results-item {
+    color: inherit;
+}
+
+.with-search .markdown-section > :not(.open) {
+    display: none;
+}
+
+.markdown-section .custom-navigation {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.markdown-section .custom-navigation .navigation {
+    position: static;
+    width: 48%;
+    padding: 4px 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: left;
+    max-width: 48%;
+}
+
+.color-theme-2 .markdown-section .custom-navigation .navigation  {
+    border-color: #5a5a5a;
+}
+
+.markdown-section .custom-navigation .navigation:hover .bottom-navigation--prev-label, .markdown-section .custom-navigation .navigation:hover .bottom-navigation--next-label {
+    color: #b9ca4a;
+}
+
+.markdown-section .custom-navigation .navigation +.navigation {
+    text-align: right;
+    margin-right: 0 !important;
+}
+
+.markdown-section .custom-navigation .navigation .bottom-navigation--prev-label, .markdown-section .custom-navigation .navigation .bottom-navigation--next-label {
+    font-weight: bold;
+}
+
+.book-body >.custom-navigation .navigation {
+    font-size: 0;
+    display: flex;
+    align-items: center;
+}
+
+.book-body >.custom-navigation .navigation >div {
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #ddd;
+    border-right: 3px solid #ddd;
+}
+
+.book-body >.custom-navigation .navigation:hover {
+    border-top-color: #b9ca4a;
+    border-right-color: #b9ca4a;
+}
+
+.book-body >.custom-navigation .navigation.navigation-prev >div {
+    transform: rotate(-135deg);
+}
+
+.book-body >.custom-navigation .navigation.navigation-next >div {
+    transform: rotate(45deg);
+}
+
+@media (max-width:1240px) {
+    .book-body {
+        padding-bottom: 0;
+    }
+    .book-body >.custom-navigation {
+        display: none;
+    }
+}
+
+.book-summary ul.summary li.header {
+    text-transform: none;
+}
+
+.book-header-wr {
+    box-shadow: 0 0 4px rgba(0,0,0,.1), 0 4px 8px rgba(0,0,0,.2);
+    background-color: #009485;
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 3;
+}
+
+#book-search-input {
+    background: rgba(0,0,0,.25);
+}
+
+#book-search-input, #book-search-input input::placeholder {
+    color: #ffffff;
+}
+
+.book-header {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.book-header a.btn {
+    order: 1;
+}
+
+.book-header .language-picker {
+    order: 2;
+}
+
+.book-header h1 {
+    color: #ffffff;
+    opacity: 1;
+    order: 3;
+    flex: 1;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 1.17;
+}
+
+.book-header .font-settings {
+    order: 4;
+}
+
+.book-header #book-search-input {
+    order: 5;
+}
+
+.book-main {
+    position: relative;
+    min-height: calc(100vh - 50px);
+    padding-top: 20px;
+}
+
+.book.color-theme-1 .book-main {
+    background: #f3eacb;
+}
+.book.color-theme-1 .book-summary ul.summary li.active > a, .book.color-theme-1 .book-summary ul.summary li a:hover, .book-summary ul.summary li.active>a {
+    background: rgba(0,0,0,.05);
+}
+
+
+.book.color-theme-2 .book-main {
+    background: #1c1f2b;
+}
+
+.book-main .container {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+}
+
+#book-search-input {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.book-body, .book-body .body-inner {
+    position: relative;
+    transition: 250ms all;
+    background: transparent;
+}
+
+.book .book-summary {
+    background: transparent !important;
+}
+
+.book {
+    height: auto;
+    min-height: 100%;
+}
+
+@media screen and (min-width: 601px) {
+    .book.with-summary .book-summary {
+        width: 0;
+        /*position: absolute;*/
+        /*left: -100%;*/
+    }
+    .book.with-summary .book-body {
+        left: 0;
+        /*padding-left: 300px;*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .markdown-section table thead {
+        display: none !important;
+    }
+    .markdown-section table {
+        box-shadow: none !important;
+    }
+    .markdown-section table tr {
+        display: flex;
+        flex-direction: column;
+        border-radius: 8px;
+        overflow: hidden;
+        border-top: none;
+    }
+    .markdown-section table tr + tr {
+        margin-top: 5px;
+    }
+
+    .markdown-section table td:dir('-') {
+        display: none;
+    }
+}
